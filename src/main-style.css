@@ -66,11 +66,11 @@
 }
 .home-page .top-pointer-events-section .intro .headline-word div:nth-child(2) {
   color: white;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   margin-top: -1%;
 }
 .home-page .top-pointer-events-section .intro .headline-word h1 {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   transition: all 0.7s ease-in-out;
 }
 @media (max-width: 567px) {
@@ -84,7 +84,7 @@
   }
 }
 .home-page .top-pointer-events-section .intro .headline-word h1 span {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .home-page .top-pointer-events-section .intro .bottom-row {
   display: flex;
@@ -369,7 +369,7 @@
   }
 }
 .home-page .expertise-section .container-expertise .top-row .headline h2 {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.05em;
   font-size: 38px;
   padding-bottom: 35px;
@@ -538,7 +538,7 @@
 }
 .home-page .our-apabilities-section .apabilities .content .accordion div button h3 {
   font-size: 38px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.07em;
 }
 @media (max-width: 567px) {
@@ -712,7 +712,7 @@
   max-width: 720px;
   letter-spacing: -0.05em;
   line-height: 39px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .home-page .company-section .company-content .years {
   width: 100%;
@@ -829,7 +829,7 @@
   padding-bottom: 160px;
 }
 .insights-section .insights-content .head-row h1 {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   font-size: 89px;
   letter-spacing: -0.05em;
   line-height: 80%;
@@ -930,7 +930,7 @@
   position: absolute;
   padding: 40px 0 0 60px;
   font-size: 38px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   top: 0;
   left: 0;
   color: #fff;
@@ -1036,7 +1036,7 @@
 .company-page .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -1051,7 +1051,7 @@
 .company-page .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -1060,7 +1060,7 @@
 .company-page .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -1089,7 +1089,7 @@
   border-bottom: 1px solid rgba(25, 27, 29, 0.1019607843);
 }
 .company-page .status-number-section .content-status-number .special-number span {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.07em;
 }
 .company-page .status-number-section .content-status-number h3 {
@@ -1111,7 +1111,7 @@
   padding: 35px 0;
   border-bottom: 1px solid rgba(25, 27, 29, 0.1019607843);
   font-size: 90px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.06em;
 }
 .company-page .status-number-section .content-status-number .years-members div p {
@@ -1206,12 +1206,12 @@
   line-height: 100%;
   padding: 50px 0;
   font-size: 90px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.06em;
   color: rgba(255, 255, 255, 0.4);
 }
 .company-page .recognition-section .award-lists h1 span {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.06em;
   color: #fff;
 }
@@ -1447,7 +1447,7 @@
   line-height: 100%;
   font-size: 38px;
   letter-spacing: -0.04em;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .blog-page .list-cards .special-card span p:nth-child(1) {
   color: rgba(25, 27, 29, 0.5019607843);
@@ -1508,7 +1508,7 @@
 .blog-page .leave-email-section .content .leave-email .input span {
   letter-spacing: -0.05em;
   font-size: 38px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   left: 0;
   bottom: 20px;
   padding-top: 10px;
@@ -1585,7 +1585,7 @@
 .career-page .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -1600,7 +1600,7 @@
 .career-page .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -1609,7 +1609,7 @@
 .career-page .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -1642,7 +1642,7 @@
 .career-page .vacancies-section .content-vacancies .work-vacancies span {
   padding-top: 63px;
   font-size: 38.2px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.05em;
   width: 48.5%;
   display: flex;
@@ -1738,7 +1738,7 @@
   font-size: 38px;
   padding-left: 20px;
   width: 50%;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.04em;
 }
 .discription-section .second-discription {
@@ -1875,7 +1875,7 @@
 }
 .discription-section .discription div h6 {
   color: #fff;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   margin-top: -5px;
   box-sizing: border-box;
   font-size: 180px;
@@ -1917,7 +1917,7 @@
   line-height: 80%;
   box-sizing: border-box;
   font-size: 180px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   padding-left: 20px;
   width: 48%;
   letter-spacing: -0.04em;
@@ -1982,7 +1982,7 @@
 .contact-page .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -1997,7 +1997,7 @@
 .contact-page .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -2006,7 +2006,7 @@
 .contact-page .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -2175,7 +2175,7 @@
 .digital-products .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -2190,7 +2190,7 @@
 .digital-products .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -2199,7 +2199,7 @@
 .digital-products .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -2295,7 +2295,7 @@
 .eCommerce .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -2310,7 +2310,7 @@
 .eCommerce .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -2319,7 +2319,7 @@
 .eCommerce .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -2393,7 +2393,7 @@
 .corporate-websites .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -2408,7 +2408,7 @@
 .corporate-websites .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -2417,7 +2417,7 @@
 .corporate-websites .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -2467,7 +2467,7 @@
 .brand-communication .headline-section .content-headline h1 {
   font-size: 180px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.075em;
   line-height: 100%;
   transition: 0.6s;
@@ -2482,7 +2482,7 @@
 .brand-communication .headline-section .two-line-headline h1 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.06em;
   color: #fff;
   line-height: 100%;
@@ -2491,7 +2491,7 @@
 .brand-communication .headline-section .two-line-headline h2 {
   font-size: 90px;
   font-weight: 100;
-  font-family: "Graphik LCG Medium", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   letter-spacing: -0.065em;
   color: #191b1d;
   line-height: 100%;
@@ -2531,7 +2531,7 @@
 }
 .accordion-expertise .container-accordion .names .container h4 {
   font-size: 37px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.03em;
   line-height: 80%;
 }
@@ -2579,7 +2579,7 @@
 }
 .accordion-expertise-two .container-accordion .names .container h4 {
   font-size: 37px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.03em;
   line-height: 80%;
 }
@@ -2624,7 +2624,7 @@
 .case-studies-section .container .headline h1 {
   font-size: 91px;
   letter-spacing: -0.07em;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   line-height: 75%;
 }
 .case-studies-section .container .headline .case-studies-buttons {
@@ -2683,7 +2683,7 @@
 }
 .work-detail-container .header-bgi .title h1 {
   font-size: 90px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.06em;
 }
 .work-detail-container .header-bgi .title p {
@@ -2771,7 +2771,7 @@
   font-size: 37px;
   letter-spacing: -0.033em;
   line-height: 109%;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .work-detail-container .max-width .section .txt1 {
   border-top: 1px solid rgba(25, 27, 29, 0.1019607843);
@@ -2802,7 +2802,7 @@
 }
 .work-detail-container .max-width .section .txt h2 {
   font-size: 21.5px;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .work-detail-container .max-width .section .txt p {
   font-size: 21.5px;
@@ -2841,19 +2841,19 @@
 }
 
 @font-face {
-  font-family: "Graphik LCG Regular";
+  font-family: "San Francisco";
   src: url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.eot");
-  src: url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff") format("woff"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.svg#Graphik LCG Regular") format("svg");
+  src: url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff") format("woff"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.svg#San Francisco") format("svg");
 }
 @font-face {
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   src: url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.eot");
-  src: url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff") format("woff"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.svg#Graphik LCG Medium") format("svg");
+  src: url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff") format("woff"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.svg#San Francisco") format("svg");
 }
 * {
   margin: 0;
   padding: 0;
-  font-family: "Graphik LCG Regular", Arial, sans-serif;
+  font-family: "San Francisco", Arial, sans-serif;
   font-weight: 10;
 }
 
@@ -2926,7 +2926,7 @@ body {
 }
 .navigation .header-content .logo a span {
   letter-spacing: -0.03em;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 @media (max-width: 567px) {
   .navigation .header-content .logo {
@@ -2973,7 +2973,7 @@ body {
 }
 .navigation .header-content .white-full div a {
   text-decoration: none;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   font-size: 38px;
   letter-spacing: -0.05em;
   transition: 0.2s;
@@ -3015,7 +3015,7 @@ body {
   box-sizing: border-box;
   margin-left: 8px;
   border-radius: 50%;
-  background-color: #bbbcbd;
+  background-color: #fff;
   width: 20px;
   height: 20px;
   display: flex;
@@ -3198,7 +3198,7 @@ body {
 }
 .footer .container-footer .footer-items .top-row .logo a span {
   letter-spacing: -0.03em;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
 }
 .footer .container-footer .footer-items .top-row .logo a {
   transition: 0.15s;
@@ -3345,7 +3345,7 @@ body {
 }
 .headline-choose_btn-section div:nth-child(1) .headline {
   box-sizing: border-box;
-  font-family: "Graphik LCG Medium";
+  font-family: "San Francisco";
   letter-spacing: -0.06em;
   font-size: 89px;
   line-height: 83%;

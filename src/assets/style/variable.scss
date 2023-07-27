@@ -1,12 +1,12 @@
 // colors
-$main: #cdcecf;
+$main: #fff;
 $light: #fff;
-$circleBoth: #97989a;
+$circleBoth: #fff;
 $circleOne: #fff;
-$iconBackColor: #bbbcbd;
-$bc: #191b1d1a;
-$bsSmi: #191b1d80;
-$lm: #e8e8e8;
+$iconBackColor: #fff;
+$bc: #fff;
+$bsSmi: #fff;
+$lm: #fff;
 $oc: #191b1d;
 $ourB: #ffffff26;
 $iconBack: #3b3d3f;
@@ -20,7 +20,7 @@ $bigCircle: #45494a;
     color: $oc;
     span {
       letter-spacing: -0.03em;
-      font-family: "Graphik LCG Medium";
+      font-family: "San Francisco";
     }
   }
 }
@@ -65,8 +65,8 @@ $bigCircle: #45494a;
       position: relative;
       h1 {
         font-size: 180px;
-        font-weight: 100;
-        font-family: "Graphik LCG Medium", Arial, sans-serif;
+        font-weight: 700;
+        font-family: "San Francisco", Arial, sans-serif;
         letter-spacing: -0.075em;
         line-height: 100%;
         transition: 0.6s;
@@ -75,22 +75,22 @@ $bigCircle: #45494a;
     }
     .two-line-headline {
       box-sizing: border-box;
-      padding: 118px 0 80px;
+      padding: 110px 0 80px;
       height: 100%;
       position: relative;
       h1 {
-        font-size: 90px;
-        font-weight: 100;
-        font-family: "Graphik LCG Medium", Arial, sans-serif;
-        letter-spacing: -0.06em;
-        color: $light;
+        font-size: 180px;
+        font-weight: 700;
+        font-family: "San Francisco", Arial, sans-serif;
+        letter-spacing: -0.075em;
         line-height: 100%;
         transition: 0.6s;
+        color: $oc;
       }
       h2 {
         font-size: 90px;
-        font-weight: 100;
-        font-family: "Graphik LCG Medium", Arial, sans-serif;
+        font-weight: 500;
+        font-family: "San Francisco", Arial, sans-serif;
         letter-spacing: -0.065em;
         color: $oc;
         line-height: 100%;
@@ -114,34 +114,54 @@ $bigCircle: #45494a;
 @import "./detail.scss";
 
 // fonts
+
+ /** Ultra Light */
 @font-face {
-  font-family: "Graphik LCG Regular";
-  src: url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.eot");
-  src: url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/ca3d10781128664daddf89bf2e2d1305.svg#Graphik LCG Regular")
-      format("svg");
+  font-family: "San Francisco";
+  font-weight: 100;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
 }
+
+/** Thin */
 @font-face {
-  font-family: "Graphik LCG Medium";
-  src: url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.eot");
-  src: url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7aca009229e7731f7f0c3c2ea048bde8.svg#Graphik LCG Medium")
-      format("svg");
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Medium */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 500;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
+/** Bold */ 
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Graphik LCG Regular", Arial, sans-serif;
-  font-weight: 10;
+  font-family: "San Francisco", Arial, sans-serif;
+  font-weight: 400;
 }
 // ::-webkit-scrollbar{
 //     display: none;
@@ -207,7 +227,7 @@ body {
     }
     .type-names {
       width: 100%;
-      background-color: rgba(0, 0, 0, 0.444);
+      background-color: $light;
       opacity: 0;
       height: 100vh;
       position: absolute;
@@ -238,7 +258,7 @@ body {
         justify-content: center;
         a {
           text-decoration: none;
-          font-family: "Graphik LCG Medium";
+          font-family: "San Francisco";
           font-size: 38px;
           letter-spacing: -0.05em;
           transition: 0.2s;
@@ -306,7 +326,7 @@ body {
     }
     .link-btn {
       width: 17%;
-      font-weight: 100;
+      font-weight: 200;
       display: flex;
       align-items: center;
       z-index: 1;
@@ -492,7 +512,7 @@ body {
               transition: 0.3s;
             }
             .top {
-              color: $oc;
+              color: $light;
             }
             .bottom {
               color: $light;
@@ -585,7 +605,7 @@ body {
     height: 640px;
     .headline {
       box-sizing: border-box;
-      font-family: "Graphik LCG Medium";
+      font-family: "San Francisco";
       letter-spacing: -0.06em;
       font-size: 89px;
       line-height: 83%;

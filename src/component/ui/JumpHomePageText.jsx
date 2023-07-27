@@ -4,7 +4,7 @@ export const JumpHomePageText = (props) => {
       style={
         props.props === "Company"
           ? {
-              color: "#cdcecf",
+              color: "#fff",
             }
           : {}
       }
@@ -15,7 +15,7 @@ export const JumpHomePageText = (props) => {
           props.props === "Company"
             ? {
                 backgroundColor: "transparent",
-                color: "#cdcecf",
+                color: "#fff",
               }
             : {}
         }

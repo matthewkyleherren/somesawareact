@@ -54,12 +54,12 @@
 
         div:nth-child(2) {
           color: white;
-          font-family: "Graphik LCG Medium";
+          font-family: "San Francisco";
           margin-top: -1%;
         }
 
         h1 {
-          font-family: "Graphik LCG Medium";
+          font-family: "San Francisco";
           transition: all 0.7s ease-in-out;
 
           @include media("<=phone&tablet") {
@@ -71,7 +71,7 @@
           }
 
           span {
-            font-family: "Graphik LCG Medium";
+            font-family: "San Francisco";
           }
         }
       }
@@ -348,7 +348,7 @@
           }
 
           h2 {
-            font-family: "Graphik LCG Medium";
+            font-family: "San Francisco";
             letter-spacing: -0.05em;
             font-size: 38px;
             padding-bottom: 35px;
@@ -448,7 +448,7 @@
             color: $light;
             width: 60px;
             font-size: 16px;
-            font-weight: 100;
+            font-weight: 200;
             padding-top: 36px;
 
             @include media("<=phone&tablet") {
@@ -511,18 +511,18 @@
 
               h3 {
                 font-size: 38px;
-                font-family: "Graphik LCG Medium";
+                font-family: "San Francisco";
                 letter-spacing: -0.07em;
 
                 @include media("<=phone&tablet") {
                   font-size: 24px;
                   letter-spacing: -0.01em;
-                  font-weight: 300;
+                  font-weight: 500;
                 }
 
                 @include media(">phone&tablet", "<=tablet") {
                   font-size: 24px;
-                  font-weight: 300;
+                  font-weight: 500;
                   letter-spacing: -0.01em;
                 }
               }
@@ -691,7 +691,7 @@
         h2 {
           margin-top: 6px;
           font-size: 16px;
-          font-weight: 100;
+          font-weight: 600;
         }
 
         span {
@@ -699,11 +699,11 @@
           box-sizing: border-box;
           padding: 0 20px 120px 0;
           font-size: 38px;
-          font-weight: 100;
+          font-weight: 600;
           max-width: 720px;
           letter-spacing: -0.05em;
           line-height: 39px;
-          font-family: "Graphik LCG Medium";
+          font-family: "San Francisco";
         }
       }
 
@@ -834,7 +834,7 @@
       padding-bottom: 160px;
 
       h1 {
-        font-family: "Graphik LCG Medium";
+        font-family: "San Francisco";
         font-size: 89px;
         letter-spacing: -0.05em;
         line-height: 80%;
@@ -942,7 +942,7 @@
       position: absolute;
       padding: 40px 0 0 60px;
       font-size: 38px;
-      font-family: "Graphik LCG Medium";
+      font-family: "San Francisco";
       top: 0;
       left: 0;
       color: $light;

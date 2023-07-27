@@ -6,14 +6,15 @@ export const Intro = () => {
       <InView threshold="0" triggerOnce>
         {({ inView, ref }) => (
           <>
-            <div ref={ref} className="headline-word">
+
+            <div ref={ref} className="headline">
               <div>
                 <h1
                   style={{
                     transform: inView ? "translateY(0)" : "translateY(100%)",
                   }}
                 >
-                  Design. <span>Development.</span>
+                  <span>Development:</span>
                 </h1>
               </div>
               <div>
@@ -22,9 +23,19 @@ export const Intro = () => {
                     transform: inView ? "translateY(0)" : "translateY(100%)",
                   }}
                 >
-                  Mastership.
+                  <span>Powered by</span>
                 </h1>
               </div>
+              <div>
+                <h1
+                  style={{
+                    transform: inView ? "translateY(0)" : "translateY(100%)",
+                  }}
+                >
+                  <span>Education.</span>
+                </h1>
+              </div>
+              
             </div>
             <div className="bottom-row">
               <div className="cricles">
@@ -53,8 +64,8 @@ export const Intro = () => {
               <div
                 style={{
                   background: inView
-                    ? "linear-gradient(transparent 10% , #cdcecf 40%)"
-                    : "linear-gradient(transparent 10% , #cdcecf 80% )",
+                    ? "linear-gradient(transparent 10% , #fff 40%)"
+                    : "linear-gradient(transparent 10% , #fff 80% )",
                   transform: inView ? "translateY(100%)" : "translateY(-50%)",
                   height: inView ? "100%" : "500%",
                 }}

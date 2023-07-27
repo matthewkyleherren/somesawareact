@@ -26,7 +26,7 @@ export const Navigation = () => {
             ? "#fff"
             : href === "expertise"
             ? "#fff"
-            : "#cdcecf",
+            : "#fff",
       }}
       className="navigation"
     >
@@ -76,12 +76,12 @@ export const Navigation = () => {
               style={{
                 backgroundColor:
                   href === "blog"
-                    ? "#eaebeb"
+                    ? "#fff"
                     : href === "work"
-                    ? "#eaebeb"
+                    ? "#fff"
                     : href === "expertise"
-                    ? "#eaebeb"
-                    : "#bbbcbd",
+                    ? "#fff"
+                    : "#fff",
               }}
               className="hover-icon"
             >
@@ -107,3 +107,4 @@ export const Navigation = () => {
     </div>
   );
 };
+

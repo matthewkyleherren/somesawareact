@@ -17,94 +17,88 @@ export const Navigation = () => {
     }, 1000);
   };
   return (
-    <div
+    <><div
       style={{
-        backgroundColor:
-          href === "blog"
-            ? "#fff"
-            : href === "work"
+        backgroundColor: href === "blog"
+          ? "#fff"
+          : href === "work"
             ? "#fff"
             : href === "expertise"
-            ? "#fff"
-            : "#fff",
-      }}
-      className="navigation"
-    >
-      <div className="full">
-        <div className="header-content">
-          <div className="logo">
-            <a href="/">
-              <span>Vide Infra</span>
-            </a>
-          </div>
-          <div className="link-btn">
-            <div className="type-names"></div>
-            <div
-              className="white-full"
-              style={
-                click
-                  ? {
-                      top: "-100vh",
-                    }
-                  : {}
-              }
-            >
-              <div>
-                <Link to="/expertise/digital-products-and-services" onClick={(e) => handClick(e)}>
-                  Digital Products & Services
-                </Link>
-                <Link to="/expertise/ecommerce" onClick={(e) => handClick(e)}>
-                  eCommerce
-                </Link>
-                <Link to="/expertise/corporate-websites" onClick={(e) => handClick(e)}>
-                  Corporate Websites
-                </Link>
-                <Link to="/expertise/brand-and-communication" onClick={(e) => handClick(e)}>
-                  Brand & Communication
-                </Link>
-              </div>
-              <div className="img" />
+              ? "#fff"
+              : "#fff",
+      }}>
+    </div><div className="navigation">
+        <div className="full">
+          <div className="header-content">
+            <div className="logo">
+              <a href="/">
+                <span>Soma Sawa</span>
+              </a>
             </div>
-            <span
-              style={{
-                color: "#000",
-              }}
-            >
-              {title}
-            </span>
-            <div
-              style={{
-                backgroundColor:
-                  href === "blog"
+            <div className="link-btn">
+              <div className="type-names"></div>
+              <div
+                className="white-full"
+                style={click
+                  ? {
+                    top: "-100vh",
+                  }
+                  : {}}
+              >
+                <div>
+                  <Link to="/expertise/digital-products-and-services" onClick={(e) => handClick(e)}>
+                    Digital Products & Services
+                  </Link>
+                  <Link to="/expertise/ecommerce" onClick={(e) => handClick(e)}>
+                    eCommerce
+                  </Link>
+                  <Link to="/expertise/corporate-websites" onClick={(e) => handClick(e)}>
+                    Corporate Websites
+                  </Link>
+                  <Link to="/expertise/brand-and-communication" onClick={(e) => handClick(e)}>
+                    Brand & Communication
+                  </Link>
+                </div>
+                <div className="img" />
+              </div>
+              <span
+                style={{
+                  color: "#000",
+                }}
+              >
+                {title}
+              </span>
+              <div
+                style={{
+                  backgroundColor: href === "blog"
                     ? "#fff"
                     : href === "work"
-                    ? "#fff"
-                    : href === "expertise"
-                    ? "#fff"
-                    : "#fff",
-              }}
-              className="hover-icon"
-            >
-              <img src={icon} alt="" />
+                      ? "#fff"
+                      : href === "expertise"
+                        ? "#fff"
+                        : "#fff",
+                }}
+                className="hover-icon"
+              >
+                <img src={icon} alt="" />
+              </div>
+            </div>
+            <div className="list">
+              <ul>
+                {NavigationLists.map(({ title, path }, i) => (
+                  <li key={i}>
+                    <a href={path} data-text={title}>
+                      <span className="skinny">{title}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="menu">
+              <img src={menu} alt="" />
             </div>
           </div>
-          <div className="list">
-            <ul>
-              {NavigationLists.map(({ title, path }, i) => (
-                <li key={i}>
-                  <a href={path} data-text={title}>
-                    <span>{title}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="menu">
-            <img src={menu} alt="" />
-          </div>
         </div>
-      </div>
-    </div>
+      </div></>
   );
-};
-
+}

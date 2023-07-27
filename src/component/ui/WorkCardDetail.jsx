@@ -2,7 +2,7 @@ import React from "react";
 // import { workType } from "../../utils/work-data";
 import { ArrowRL } from "../company-page/ArrowRL";
 import { TextButtom } from "./Buttom";
-// import { CaseStudies } from "../expertise/CaseStudies";
+// import { CaseStudies } from "..//CaseStudies";
 
 export const WorkCardDetail = (props) => {
   return (

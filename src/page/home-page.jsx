@@ -21,7 +21,7 @@ export const HomePage = () => {
           },
         }}
       >
-        <section id="top" className="top-pointer-events-section">
+        <section id="top" className="top-pointer-events-section grid-bg">
           <Tween
             to={{
               y: "-45vh",
